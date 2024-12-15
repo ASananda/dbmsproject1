@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+    color: #373A40;
+    }
+    
+    .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+    }
+    
+    .sidebar {
+    flex: 1;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .profile-card {
+    text-align: center;
+    }
+    
+    .profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    }
+    
+    .profile-name {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #686D76;
+    }
+    
+    .profile-username {
+    font-size: 14px;
+    color: #DC5F00;
+    margin: 5px 0;
+    }
+    
+    .profile-bio {
+    font-size: 14px;
+    margin: 10px 0;
+    }
+    
+    .profile-stats {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    }
+    
+    .stat {
+    text-align: center;
+    }
+    
+    .number {
+    font-size: 18px;
+    font-weight: bold;
+    }
+    
+    .label {
+    font-size: 12px;
+    color: #686D76;
+    }
+    
+    .profile-button {
+    background-color: #DC5F00;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #FFF;
+    cursor: pointer;
+    margin: 5px 0;
+    }
+    
+    .main-content {
+    flex: 2;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .create-post-card {
+    
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+    
+    .create-post-card h2 {
+    margin-bottom: 20px;
+    color: #373A40;
+    }
+    
+    #createPostForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    
+    #createPostForm input[type="text"],
+    #createPostForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #686D76;
+    border-radius: 10px;
+    resize: none;
+    }
+    
+    #createPostForm input[type="file"] {
+    padding: 10px;
+    }
+    
+    #createPostForm button {
+    align-self: center;
+    background-color: #DC5F00;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #FFF;
+    cursor: pointer;
+    }
+    
+    @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .sidebar, .main-content {
+        width: 100%;
+        padding: 10px;
+    }
+    }
+    
