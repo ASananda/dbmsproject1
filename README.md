@@ -1,1 +1,1 @@
-# dbmsproject1
+# Blog Apllication
